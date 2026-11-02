@@ -8,7 +8,7 @@ A personal Python project designed to measure and analyze strength across workou
 - Estimated one-rep max (1RM) calculation using the Epley formula
 - User-provided weight and repetition inputs
 - Dynamic display of calculated results
-- Conditional warning for unusually high weight inputs
+- Input validation, as well as conditional warnings for unusually high weight inputs (1000+) or rep ranges that will lead to less reliable results (10+)
 - Weight rounding and barbell plate-loading calculations in the calculation module (not yet integrated into the GUI)
 
 ## Running the Application
@@ -42,7 +42,6 @@ No additional third-party packages are required for the current version.
 
 ## Planned Features
 
-- Basic input validation
 - Integrate the plate calculator into the graphical interface
 - Support pounds and kilograms with configurable barbell weights
 - Customizable plate inventories
